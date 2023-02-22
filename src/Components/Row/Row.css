@@ -1,0 +1,45 @@
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+.row__posterSingle {
+  position: relative;
+}
+.row__poster {
+  display: block;
+  object-fit: contain;
+  height: 100%;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.row_LikeButton {
+  position: absolute;
+  bottom: 10;
+  left: 0;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+}
+.row__posterLarge {
+  max-height: 250px;
+}
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
+.row > h2 {
+  margin-left: 10px;
+}
