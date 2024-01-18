@@ -1,4 +1,4 @@
-# https://netflix-s-1.netlify.app/
+# https://movies-inventory-s1.netlify.app/
 
 ## Description
 This is a website similar in look to netflix.
